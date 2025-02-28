@@ -76,6 +76,9 @@ img {
     max-width: 100%;
     object-fit: cover;
 }
+strong{
+    color: var(--colorStrongLinks);
+}
 
 main {
     padding-top: 60px;
@@ -187,6 +190,9 @@ section {
             justify-content: space-between;
         }
     }
+    & .servicios:hover{
+        box-shadow: 0px 0px 5px black;
+    }
 
     & img {
         width: 100%;
@@ -219,6 +225,10 @@ section {
         margin: 0;
         padding: 0;
         font-size: 12px;
+    }
+    & li{
+        display: flex;
+        align-items: center;
     }
 }
 
