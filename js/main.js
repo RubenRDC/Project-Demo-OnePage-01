@@ -9,10 +9,10 @@ btnMenu.addEventListener("click", (e) => {
         btn.classList.remove("active_menu");
         Menu.classList.remove("show_menu");
     }
-})
+});
 Menu.addEventListener("click", (e) => {
     if (Menu.classList.contains("show_menu")) {
         Menu.classList.remove("show_menu");
         btnMenu.classList.remove("active_menu");
     }
-})
+});
