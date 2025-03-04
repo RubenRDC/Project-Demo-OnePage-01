@@ -21,6 +21,7 @@ body {
     --colorTextoSecundario: #4f5966;
     --colorTextoAndFondoSecundario: #d8eefe;
     --colorStrongLinks: #ef4565;
+    --colorGrisClaro: #f1f1f1;
     --textFamily: "Noto Sans", serif;
     --maxWidth: 800px;
     --maxWidth2: 1100px;
@@ -76,7 +77,8 @@ img {
     max-width: 100%;
     object-fit: contain;
 }
-strong{
+
+strong {
     color: var(--colorStrongLinks);
 }
 
@@ -145,7 +147,6 @@ section {
     }
 }
 
-
 /*--    Portada    --*/
 .contenedor_seccion {
     & .contenedor_portada {
@@ -156,8 +157,9 @@ section {
     }
 }
 
-/*--    Servicios    --*/
-#Servicios {
+/*--    Servicios / Productos    --*/
+#Servicios,
+#Productos {
     background-color: var(--colorTextoAndFondoSecundario);
     padding-bottom: 15px;
 }
@@ -167,14 +169,38 @@ section {
     padding: 15px 0;
 }
 
-
 .contenedor_servicios {
     max-width: var(--maxWidth2);
-    margin: 0 auto;
-    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+
+    & .servicios {
+        & .desc_service {
+            height: 50%;
+        }
+    }
+}
+
+.contenedor_productos {
+    max-width: var(--maxWidth2);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+    & .servicios {
+        border-radius: 10px;
+        border: 1px solid var(--colorFondoSecundarioAndBtns);
+
+        & .desc_service {
+            height: 60%;
+        }
+    }
+}
+
+.contenedor_productos,
+.contenedor_servicios {
     justify-content: center;
     gap: 10px;
+    margin: 0 auto;
+    display: grid;
+    padding: 5px;
 
     & .servicios {
         align-items: center;
@@ -186,15 +212,17 @@ section {
 
         & .desc_service {
             display: flex;
-            height: 50%;
+            width: 100%;
             flex-direction: column;
             justify-content: space-between;
         }
+
         & img {
             filter: drop-shadow(0 0 .5rem black);
         }
     }
-    & .servicios:hover{
+
+    & .servicios:hover {
         box-shadow: 0px 0px 5px black;
     }
 
@@ -230,7 +258,8 @@ section {
         padding: 0;
         font-size: 12px;
     }
-    & li{
+
+    & li {
         display: flex;
         align-items: center;
     }
@@ -271,7 +300,6 @@ section {
     }
 }
 
-
 /*--    Botones    --*/
 .btns {
     display: flex;
@@ -287,7 +315,7 @@ section {
 
 /*--    Footer    --*/
 .footer {
-    background-color: var(--colorTextoAndFondoSecundario);
+    background-color: var(--colorGrisClaro);
     text-align: center;
 
     & p {
@@ -304,9 +332,7 @@ section {
     }
 }
 
-
 /*--    MediaQuery's    --*/
-
 @media (width < 565px) {
 
     .contenedor_map_form {
@@ -337,5 +363,4 @@ section {
             transition: rotate 0.5s;
         }
     }
-
 }
