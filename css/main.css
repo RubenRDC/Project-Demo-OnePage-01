@@ -16,11 +16,12 @@ body {
 :root {
     --colorTitulosAndFondoSecundario: #094067;
     --colorFondoAndBtnText: #fffffe;
+    --colorBtnText: #161616;
     --colorFondoTransparente: #ffffffe0;
     --colorFondoSecundarioAndBtns: #3da9fc;
     --colorTextoSecundario: #4f5966;
     --colorTextoAndFondoSecundario: #d8eefe;
-    --colorStrongLinks: #ef4565;
+    --colorStrongLinks: #a02e43;
     --colorGrisClaro: #f1f1f1;
     --textFamily: "Noto Sans", serif;
     --maxWidth: 800px;
@@ -294,7 +295,7 @@ section {
 
         & .btn-submit {
             padding: 14px;
-            color: var(--colorFondoAndBtnText);
+            color: var(--colorBtnText);
             background-color: var(--colorFondoSecundarioAndBtns);
         }
     }
@@ -309,7 +310,7 @@ section {
 .btn {
     display: flex;
     padding: 14px;
-    color: var(--colorFondoAndBtnText);
+    color: var(--colorBtnText);
     background-color: var(--colorFondoSecundarioAndBtns);
 }
 
