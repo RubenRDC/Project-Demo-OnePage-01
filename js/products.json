@@ -1,0 +1,191 @@
+[
+    {
+        "id": 0,
+        "title": "Producto Personalizado",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "A Definir",
+        "type": "A Definir",
+        "rubro": "A Definir",
+        "material": "A Definir"
+    },
+    {
+        "id": 1,
+        "title": "Envase Cilíndrico 500ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "7x7x15cm",
+        "type": "Envases",
+        "rubro": "Cosmético",
+        "material": "Polipropileno"
+    },
+    {
+        "id": 2,
+        "title": "Envase Rectangular 1L",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "10x5x20cm",
+        "type": "Envases",
+        "rubro": "Industrial",
+        "material": "Polietileno"
+    },
+    {
+        "id": 3,
+        "title": "Goteros Cuentagotas 30ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "3x3x8cm",
+        "type": "Goteros",
+        "rubro": "Medicina",
+        "material": "Baquelita"
+    },
+    {
+        "id": 4,
+        "title": "Pipeta Graduada 10ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "1x1x12cm",
+        "type": "Pipetas",
+        "rubro": "Medicina",
+        "material": "Polipropileno"
+    },
+    {
+        "id": 5,
+        "title": "Dosificador Pump 50ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "4x4x10cm",
+        "type": "Dosificadores",
+        "rubro": "Cosmético",
+        "material": "Urea"
+    },
+    {
+        "id": 6,
+        "title": "Inserto para Tapón 20mm",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "2x2x1cm",
+        "type": "Insertos",
+        "rubro": "Industrial",
+        "material": "Polipropileno"
+    },
+    {
+        "id": 7,
+        "title": "Tapa Flip-Top 38mm",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "3.8x3.8x2cm",
+        "type": "Tapas",
+        "rubro": "Cosmético",
+        "material": "Polietileno"
+    },
+    {
+        "id": 8,
+        "title": "Tapón Rosca 28mm",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "2.8x2.8x1.5cm",
+        "type": "Tapones",
+        "rubro": "Medicina",
+        "material": "Baquelita"
+    },
+    {
+        "id": 9,
+        "title": "Envase Airless 100ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "5x5x13cm",
+        "type": "Envases",
+        "rubro": "Cosmético",
+        "material": "Polipropileno"
+    },
+    {
+        "id": 10,
+        "title": "Goteros Cuentagotas 10ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "2.5x2.5x7cm",
+        "type": "Goteros",
+        "rubro": "Medicina",
+        "material": "Urea"
+    },
+    {
+        "id": 11,
+        "title": "Pipeta Pasteur 5ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "0.8x0.8x15cm",
+        "type": "Pipetas",
+        "rubro": "Medicina",
+        "material": "Polietileno"
+    },
+    {
+        "id": 12,
+        "title": "Dosificador con Gatillo",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "6x4x14cm",
+        "type": "Dosificadores",
+        "rubro": "Industrial",
+        "material": "Polietileno"
+    },
+    {
+        "id": 13,
+        "title": "Inserto Dosificador 10mm",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "1x1x0.5cm",
+        "type": "Dosificadores",
+        "rubro": "Cosmético",
+        "material": "Urea"
+    },
+    {
+        "id": 14,
+        "title": "Tapa Hermética 50mm",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "5x5x2.5cm",
+        "type": "Tapas",
+        "rubro": "Industrial",
+        "material": "Baquelita"
+    },
+    {
+        "id": 15,
+        "title": "Tapón Dosificador 30mm",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "3x3x1.8cm",
+        "type": "Tapones",
+        "rubro": "Cosmético",
+        "material": "Polipropileno"
+    },
+    {
+        "id": 16,
+        "title": "Envase Redondo 250ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "6x6x10cm",
+        "type": "Envases",
+        "rubro": "Cosmético",
+        "material": "Polietileno"
+    },
+    {
+        "id": 17,
+        "title": "Goteros de Precisión 15ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "3x3x8cm",
+        "type": "Goteros",
+        "rubro": "Medicina",
+        "material": "Polipropileno"
+    },
+    {
+        "id": 18,
+        "title": "Pipeta Automática 20ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "1.5x1.5x20cm",
+        "type": "Pipetas",
+        "rubro": "Medicina",
+        "material": "Urea"
+    },
+    {
+        "id": 19,
+        "title": "Dosificador en Spray 100ml",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "4.5x4.5x12cm",
+        "type": "Dosificadores",
+        "rubro": "Cosmético",
+        "material": "Baquelita"
+    },
+    {
+        "id": 20,
+        "title": "Tapa de Seguridad 45mm",
+        "picture": "AdriPlast Logo.webp",
+        "dims": "4.5x4.5x3cm",
+        "type": "Tapas",
+        "rubro": "Industrial",
+        "material": "Polietileno"
+    }
+]
