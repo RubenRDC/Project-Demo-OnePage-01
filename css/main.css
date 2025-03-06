@@ -391,6 +391,9 @@ section {
 
 /*--    MediaQuery's    --*/
 @media (width < 565px) {
+    .filtros .radio_btns {
+        justify-content: center;
+    }
 
     .contenedor_map_form {
         flex-direction: column;

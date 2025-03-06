@@ -58,7 +58,7 @@ function createProductTarj({ id, title, picture, dims, type, rubro, material }) 
 };
 function findTarjAndLoadProducts({ type = "All", rubro = "All" }) {
     const rComponents = new Array();
-    const r = productComponent.filter(e => {
+    productComponent.forEach(e => {
         if ((e.ProductObject.type == type || type == "All" || e.ProductObject.type == "A Definir") && (e.ProductObject.rubro == rubro || rubro == "All" || e.ProductObject.rubro == "A Definir")) {
             rComponents.push(e.Component);
         }
